@@ -1,7 +1,7 @@
-import kodflix from './kodflix.jpg';
-import DrinkMeApp from './DrinkMeApp.png';
+import kodflix from '../Images/kodflix.jpg';
+import DrinkMeApp from '../Images/DrinkMeApp.png';
 
-export default [
+export default  [
     {
       title: "DrinkMeApp",
       description:"This project allows the user to find new cocktails that they like from a selection of different ingredients.  Once you have selected, you will be able to browse through and find out how to make the cocktail.",
