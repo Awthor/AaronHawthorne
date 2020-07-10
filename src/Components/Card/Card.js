@@ -8,6 +8,7 @@ import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Collapse from '@material-ui/core/Collapse';
 import { IconButton, CardMedia } from "@material-ui/core";
+import EmailIcon from '@material-ui/icons/Email';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -52,6 +53,7 @@ const MyCard = props => {
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
+
         <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
@@ -59,6 +61,7 @@ const MyCard = props => {
           onClick={handleExpandClick}
           aria-expanded={expanded}
           aria-label="show more"
+          
         >
           <ExpandMoreIcon />
         </IconButton>

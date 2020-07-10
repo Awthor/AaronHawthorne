@@ -1,15 +1,24 @@
 import React from "react";
-import { AppBar, Toolbar, Typography, Icon } from "@material-ui/core";
+import { AppBar, Toolbar, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/styles";
-import SocialMedia from "./SocialMedia";
+import AcUnitRoundedIcon from "@material-ui/icons/AcUnitRounded";
+import EmailIcon from '@material-ui/icons/Email';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import { createMuiTheme } from '@material-ui/core/styles';
 
 
 const useStyles = makeStyles(() => ({
   typographyStyles: {
-    flex: 1
+    flex: 1 
   },
-  fill: "green"
-}));
+  iconStyles: {
+    position: 'relative',
+    flexGrow: 1, 
+    marginRight: 1,
+  },
+  }));
 
 const Header = () => {
   const classes = useStyles();
@@ -19,13 +28,14 @@ const Header = () => {
         <Typography className={classes.typographyStyles}>
           Aaron Hawthorne Portfolio
         </Typography>
-        <SocialMedia 
-              email="aaronhawthorne12345@gmail.com"
-              github="https://github.com/Awthor"
-              linkedIn="https://www.linkedin.com/in/aaronhawthorneproptech/"
-        />
+        <LinkedInIcon className={classes.iconStyles}/>
+        <GitHubIcon className={classes.iconStyles}/>
+        <EmailIcon  className={classes.iconStyles}/>
+        <InstagramIcon className={classes.iconStyles}/>
       </Toolbar>
+
     </AppBar>
+    
   );
 };
 

@@ -2,6 +2,7 @@ import React from "react";
 import MyCard from "../Card/Card";
 import { Grid } from "@material-ui/core";
 import cardContent from "../CardContent/CardContent";
+import me from "../Images/Me.jpg";
 
 const Content = () => {
   const HomePage = HomeObj => {

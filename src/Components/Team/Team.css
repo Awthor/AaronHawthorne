@@ -1,0 +1,40 @@
+.Team h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #4155b1;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Team h2 {
+    font-size: 48px;
+    color: fff;
+    margin-top: 0;
+    color: rgb(65, 85, 177);
+  }
+  
+  .Team {
+    background-color: #fff;
+    background: url("../Images/Me.jpg") no-repeat center fixed;
+    text-align: center;
+    padding-right: 0;
+    height: 40rem;    
+  }
+  
+  .Team .row {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    justify-items: center;
+  }
+  
+  .teamContainer img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+  }
+  
+  .fa {
+    color:rgb(65, 85, 177);
+    margin-top: 15px;
+  }

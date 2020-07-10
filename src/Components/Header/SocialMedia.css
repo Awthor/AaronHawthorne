@@ -1,0 +1,31 @@
+.teamContainer img {
+  border-radius: 20%;
+}
+
+.TeamMember {
+  min-width: 300px;
+  padding-bottom: 50px;
+}
+
+.TeamMember a {
+  text-decoration: none;
+}
+
+.teamMemberName {
+  color:rgb(65, 85, 177);
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.TeamMember a {
+  padding: 5px;
+}
+
+.fa-4x {
+  font-size: 40px;
+  width: 40px;
+}
+
+.Team {
+  padding-right: 10px;
+}
