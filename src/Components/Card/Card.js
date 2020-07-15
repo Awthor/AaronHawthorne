@@ -12,7 +12,7 @@ import EmailIcon from '@material-ui/icons/Email';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    marginTop: 10
+    marginTop: 10,
   },
   media: {
     height: 140,
@@ -39,21 +39,21 @@ const MyCard = props => {
   };
 
   return (
-    <Card className={classes.root}>
+    <Card className={classes.root} style={{ background: '#242526' }}>
       <a href={externalUrl} target="_blank" rel="noopener noreferrer">
       <CardMedia 
         className={classes.media}
         style={{ height: "150px" }}
         image={imageUrl} 
+
         /></a>
-      <CardContent variant="body3" component="h3">
+      <CardContent variant="body3" component="h3" style={{ color: '#fff' }}>
         {title}
-        <Typography variant="caption" component="p">
+        <Typography variant="caption" component="p" style={{ color: '#fff' }}>
           {description}
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-
         <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
@@ -61,14 +61,13 @@ const MyCard = props => {
           onClick={handleExpandClick}
           aria-expanded={expanded}
           aria-label="show more"
-          
         >
-          <ExpandMoreIcon />
+          <ExpandMoreIcon style={{ color: '#fff' }}/>
         </IconButton>
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-          <Typography variant="caption" component="p">
+          <Typography variant="caption" component="p" style={{ color: '#fff' }} >
             {moredescription}
           </Typography>
         </CardContent>
