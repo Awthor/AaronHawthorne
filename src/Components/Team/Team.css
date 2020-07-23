@@ -18,15 +18,19 @@
     margin-top: 75px;
     text-align: center;
     padding-right: 0;
-    height: 40rem;  
-
+    height: 40rem; 
+    
+  }
+  .Team .row {
+    display: flex;
+    justify-items: center;
   }
   
-  .Team .row {
-    display: grid;
-    grid-gap: 50px;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  .Team .row1 {
+    display: flex;
+    position: absolute;
     justify-items: center;
+    margin-left: 100px;
   }
   
   .teamContainer img {

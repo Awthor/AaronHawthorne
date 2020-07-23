@@ -8,7 +8,6 @@ import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Collapse from '@material-ui/core/Collapse';
 import { IconButton, CardMedia } from "@material-ui/core";
-import EmailIcon from '@material-ui/icons/Email';
 
 const useStyles = makeStyles((theme) => ({
   root: {
