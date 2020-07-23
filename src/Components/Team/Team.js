@@ -11,7 +11,6 @@ export default function Team() {
     return (
         <div className="Team" id="Team">
             <div className="row">
-
                 <SocialMedia
                     name="Aaron Hawthorne"                     
                 />

@@ -13,6 +13,7 @@ import EmailIcon from '@material-ui/icons/Email';
 const useStyles = makeStyles((theme) => ({
   root: {
     marginTop: 10,
+    marginBottom: 10,
   },
   media: {
     height: 140,
@@ -43,7 +44,7 @@ const MyCard = props => {
       <a href={externalUrl} target="_blank" rel="noopener noreferrer">
       <CardMedia 
         className={classes.media}
-        style={{ height: "150px" }}
+        style={{ height: "180px" }}
         image={imageUrl} 
 
         /></a>

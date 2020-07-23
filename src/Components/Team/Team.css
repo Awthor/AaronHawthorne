@@ -14,11 +14,12 @@
   }
   
   .Team {
-    background-color: #fff;
-    background: url("../Images/Me.jpg") no-repeat center fixed;
+    background: url("../Images/Me.jpg") no-repeat center;
+    margin-top: 75px;
     text-align: center;
     padding-right: 0;
-    height: 40rem;    
+    height: 40rem;  
+
   }
   
   .Team .row {
