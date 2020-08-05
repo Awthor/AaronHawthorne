@@ -1,0 +1,36 @@
+.header img {
+  width: 25rem;
+  height: 6rem;
+  grid-column-start: 3;
+}
+
+.header {
+  height: 80px;
+  background-color: #545454;
+  display: grid;
+  grid-template-rows: 30%;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.headerButton {
+  grid-column-start: 2;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .header img {
+    grid-column-start: 1;
+    margin-left: -20px;
+    width: 100%;
+  }
+  .header {
+    height: 80px;
+    background-color: #545454;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+  }
+  .headerButton {
+    margin-top: 100px;
+    width: 160px;
+  }
+}

@@ -1,45 +1,29 @@
-.Team h3 {
-    font-size: 16px;
-    text-transform: uppercase;
-    color: #4155b1;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .Team h2 {
-    font-size: 48px;
-    color: fff;
-    margin-top: 0;
-    color: rgb(65, 85, 177);
-  }
-  
-  .Team {
+   .Team {
     background: url("../Images/Me.jpg") no-repeat center;
-    margin-top: 75px;
     text-align: center;
-    padding-right: 0;
     height: 40rem; 
-    
+    margin-top: 10px;
   }
-  .Team .row {
-    display: flex;
-    justify-items: center;
-  }
-  
   .Team .row1 {
-    display: flex;
-    position: absolute;
-    justify-items: center;
-    margin-left: 100px;
+    display: grid;
+    position: relative;
+    justify-items: right;
+    margin-right: 10%;
+    padding: 1rem;
   }
-  
-  .teamContainer img {
-    width: 200px;
-    height: 200px;
-    border-radius: 20%;
-  }
-  
-  .fa {
-    color:rgb(65, 85, 177);
-    margin-top: 15px;
+
+  @media only screen and (max-width: 600px) {
+    .Team .row1 {
+      display: grid;
+      position: relative;
+      justify-items: left;
+      margin-left: 15%;
+      padding-top: 15%;
+    }
+    .Team .img {
+      background: url("../Images/Me.jpg") no-repeat center center;
+      text-align: center;
+      height: 40rem;  
+      margin-top: 5px;
+    }
   }

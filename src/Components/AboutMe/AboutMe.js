@@ -36,8 +36,8 @@ export default function ScrollDialog() {
 
   return (
     <div>
-      <Button component="h4"
-      style={{ background: '#a9a9a9', color: '#fff',}} 
+      <Button 
+      style={{ background: '#ff6f00', color: '#fff', fontWeight: "700"}} 
       onClick={handleClickOpen('paper')}>
           About Me</Button>
       <Dialog

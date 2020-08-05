@@ -44,8 +44,7 @@ const MyCard = props => {
       <CardMedia 
         className={classes.media}
         style={{ height: "180px" }}
-        image={imageUrl} 
-
+        image={imageUrl}
         /></a>
       <CardContent variant="body3" component="h3" style={{ color: '#fff' }}>
         {title}

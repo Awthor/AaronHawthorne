@@ -1,6 +1,6 @@
 import kodflix from '../Images/kodflix.jpg';
 import DrinkMeApp from '../Images/DrinkMeApp.png';
-import Me from '../Images/Me.jpg'
+import Me from '../Images/Me.jpg';
 import myskills from '../Images/myskills.webp';
 import Portfolio from '../Images/Portfolio.jpg';
 
@@ -19,18 +19,11 @@ export default [
       imageUrl:kodflix,
       externalUrl:"https://kodflix2.vercel.app/",
     },
-    // {
-    //   title: "About Me",
-    //   description:"I am a PC Gamer, Forex Trader and Associate Director for WSS PropTech division. I come from a town just outside Belfast and moved to London over 10 years ago with £900 in my pocket and haven’t looked back. ",      
-    //   moredescription:"My only skillset was that I was good with computers so I got a Job for Fujitsu and BT and then fell intro Tech Recruitment and for the last 7 years I have been trying to help and change people’s careers for the better. Incoming cheesy line - I look to give one act of random kindness a day and I belive that this leads to different opportunities.",
-    //   imageUrl:Me,
-    //   externalUrl:"https://www.linkedin.com/in/aaronhawthorneproptech/",
-    // },
     {
       title: "My Skills",
       description:"My Skills are started off building Dreamweaver websites, VB6 applications and moved into building PS2 games with C++. #Hardcore! Not!, I now took a massive interest in how the Front End of Websites are being built, structured and integrated.",
       moredescription:"I have been investing time into React, JavaScript, React-Hooks, Props, HTML5, CSS3, Material-UI, Styled Components, integrating API’s and my next task is to integrate Node and Express.",
       imageUrl:myskills,
-    },  
+    },   
   ];
   
